@@ -13,6 +13,16 @@
       <p><%= review.content %></p>
     <% end %>
   <% end %>
+
+  
+  <p>
+    <% if @restaurant.delivery %>
+      We deliver!
+    <% else %>
+      We don't deliver yet!
+    <% end %>
+  </p>
+  
 </div>
 
 <%= simple_form_for([ @restaurant, @review ]) do |f| %>
