@@ -1,6 +1,7 @@
 # GOAL
 
 This is a demo to show-case how to implement a cool and simple switch on a boolean input like the one below.
+![ezgif-3-8b8f75d0794d](https://user-images.githubusercontent.com/45776359/109394704-16d93e00-7907-11eb-9bf3-264454892399.gif)
 
 Before we begin, we need to have bootstrap on the app and also a boolean column for the model. Keep that in mind.
 
