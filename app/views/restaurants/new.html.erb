@@ -1,5 +1,10 @@
 <%= simple_form_for @restaurant do |f| %>
   <%= f.input :name %>
   <%= f.input :address %>
+  <div class="custom-control custom-switch">
+    <%= f.input :delivery, 
+                input_html: { class: "custom-control-input" }, 
+                label_html: { class: "custom-control-label" }  %>
+  </div>
   <%= f.submit %>
 <% end %>
